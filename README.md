@@ -142,7 +142,7 @@ GROUP BY YEAR(sale_date), MONTH(sale_date))t
 WHERE ranking = 1
 ```
 
-8. **Write a SQL query to find the top 5 customers based on the highest total sales **:
+8. **Write a SQL query to find the top 5 customers based on the highest total sales**:
 ```sql
 SELECT TOP 5
     customer_id,
